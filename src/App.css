@@ -1,0 +1,90 @@
+body {
+	/* overflow: hidden; */
+	color: red;
+}
+body::-webkit-scrollbar {
+	width: 5px;
+}
+body::-webkit-scrollbar-button {
+	height: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(255, 179, 0);
+	border-radius: 20px;
+}
+.container {
+	/* margin: 125px 30px 0px 30px; */
+	position: relative;
+	top: 85px;
+	margin: 0px 30px 0px 30px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	row-gap: 50px;
+	column-gap: 50px;
+	gap: 1rem;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(235, 235, 235);
+	height: 73px;
+	border-radius: 20px;
+	font-size: 23px;
+	font-weight: 500;
+	cursor: pointer;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.result {
+	position: relative;
+	top: 55px;
+	display: flex;
+	justify-content: end;
+	align-items: flex-end;
+	/* background-color: rgb(235, 235, 235); */
+	height: 70px;
+	font-size: 50px;
+	font-weight: 500;
+	padding: 0px 20px 5px 0px;
+	margin: 0px 30px 0px 30px;
+	border-radius: 10px;
+	z-index: 99;
+	box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+.result-2 {
+	position: relative;
+	top: 65px;
+	display: flex;
+	justify-content: end;
+	align-items: flex-end;
+	/* background-color: rgb(235, 235, 235); */
+	height: 70px;
+	font-size: 50px;
+	font-weight: 500;
+	padding: 0px 20px 5px 0px;
+	margin: 0px 30px 0px 30px;
+	border-radius: 10px;
+	z-index: 99;
+	box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+.moon-icon {
+	cursor: pointer;
+	position: relative;
+	top: -130px;
+	left: 30px;
+	height: 20px;
+	width: 20px;
+	z-index: 0;
+}
+.sun-icon {
+	cursor: pointer;
+	position: relative;
+	top: -130px;
+	left: 30px;
+	height: 20px;
+	width: 20px;
+}
+@media only screen and (min-width: 800px) {
+}
